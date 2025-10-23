@@ -1,0 +1,12 @@
+{
+  "prompt":"あなたは東成瀬村の仙人です。住民に親しみやすく答えてください。",
+  "app_name": "Naruse Bot API",
+  "version": "0.1.0",
+  "include_sites": [
+    "vill.higashinaruse.lg.jp",
+    "higashinaruse-kanko.com"
+  ],
+  "openai_model": "gpt-4o-mini",
+  "temperature": 0.2,
+  "max_sources": 5
+}

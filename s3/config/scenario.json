@@ -1,0 +1,499 @@
+{
+  "start": {
+    "message": "東成瀬村の仙人じゃよ！\n何について知りたいんじゃ？\n※求めているような回答じゃなくても、根気よく聞いて欲しいのじゃ！",
+    "options": [
+      { "label": "村政・村づくり", "next": "politics" },
+      { "label": "暮らし・手続き", "next": "living" },
+      { "label": "結婚・出産・子育て", "next": "family" },
+      { "label": "健康・福祉", "next": "health" },
+      { "label": "村の概要", "next": "overview" },
+      { "label": "防災・道路交通", "next": "disaster" }
+    ]
+  },
+
+  "restart": {
+    "message": "ほかに聞きたいことはあるかの？",
+    "options": [
+      { "label": "村政・村づくり", "next": "politics" },
+      { "label": "暮らし・手続き", "next": "living" },
+      { "label": "結婚・出産・子育て", "next": "family" },
+      { "label": "健康・福祉", "next": "health" },
+      { "label": "村の概要", "next": "overview" },
+      { "label": "防災・道路交通", "next": "disaster" }
+    ]
+  },
+
+  "politics": {
+    "message": "村政・村づくりじゃな？",
+    "options": [
+      { "label": "お知らせ", "next": "politics.news" },
+      { "label": "税使途", "next": "politics.tax_usage" },
+      { "label": "第三セクター", "next": "politics.third_sector" },
+      { "label": "財政", "next": "politics.finance" },
+      { "label": "事業・計画", "next": "politics.projects" },
+      { "label": "事業者向け", "next": "politics.for_business" },
+      { "label": "募集・試験", "next": "politics.recruitment" },
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+
+  "politics.news": {
+    "message": "お知らせじゃな？",
+    "options": [
+      { "label": "東成瀬村公式LINEの利用について" },
+      { "label": "役場庁舎内の配置及び担当業務が変わりました" },
+      { "label": "暮らしの便利帳を発行しました" },
+      { "label": "県営発電所周辺地域等振興事業助成金(特別助成金)を活用しました" },
+      { "label": "学校・家庭・地域連携総合推進事業について" },
+      { "label": "村民意識調査結果" },
+      { "label": "物価高騰対策重点支援地方創生臨時交付金について" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+
+  "politics.tax_usage": {
+    "message": "税使途じゃな？",
+    "options": [
+      { "label": "森林環境譲与税の使途について" },
+      { "label": "入湯税の使途状況について" },
+      {"label": "引上げ分に係る地方消費税の使途の明確化について" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+
+  "politics.third_sector": {
+    "message": "第三セクターじゃな？",
+    "options": [
+      {"label": "第三セクターの経営状況を公表します" },
+      {"label": "第三セクター等の経営健全化方針及び取組状況について" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+
+  "politics.finance": {
+    "message": "財政じゃな？",
+    "options": [
+      {"label": "決算に基づく財政健全化判断比率等について" },
+      {"label": "中期財政見通し(財政シミュレーション)について" },
+      { "label": "財政状況資料集" },
+      {"label": "令和5年度 東成瀬村の財務書類4表" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+  "politics.projects": {
+    "message": "事業・計画じゃな？",
+    "options": [
+      { "label": "基本計画", "next": "politics.projects.basic" },
+      { "label": "自然・環境", "next": "politics.projects.environment" },
+      { "label": "教育・福祉", "next": "politics.projects.welfare" },
+      { "label": "交通・インフラ", "next": "politics.projects.infrastructure" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+  "politics.projects.basic": {
+    "message": "基本計画じゃな？",
+    "options": [
+      { "label": "第5次東成瀬村総合計画" },
+      {"label": "東成瀬村人口ビジョン" },
+      {"label": "東成瀬村過疎地域持続的発展計画" },
+      { "label": "戻る", "next": "politics.projects" }
+    ]
+  },
+  "politics.projects.environment": {
+    "message": "自然・環境じゃな？",
+    "options": [
+      { "label": "東成瀬村森林整備計画(案)の縦覧について" },
+      { "label": "東成瀬村地球温暖化防止計画(区域施策編)の公表について" },
+      { "label": "東成瀬村鳥獣被害防止計画" },
+      { "label": "戻る", "next": "politics.projects" }
+    ]
+  },
+  "politics.projects.welfare": {
+    "message": "教育・福祉計画じゃな？",
+    "options": [
+      { "label": "東成瀬村男女共同参画計画" },
+      { "label": "障がい者活躍推進計画" },
+      { "label": "東成瀬村特定事業主行動計画" },
+      { "label": "東成瀬村公立学校情報機器整備事業に係る各種計画について" },
+      { "label": "戻る", "next": "politics.projects" }
+    ]
+  },
+  "politics.projects.infrastructure": {
+    "message": "交通・インフラ関連じゃな？",
+    "options": [
+      {"label": "東成瀬村橋梁長寿化修繕計画の公表について(令和3年9月公表 令和4年5月第1回変更)" },
+      {"label": "東成瀬村公共施設総合管理計画" },
+      { "label": "東成瀬村自転車活用推進計画" },
+      {"label": "東成瀬村国土強靭化地域計画の公表について(令和2年4月策定)" },
+      { "label": "戻る", "next": "politics.projects" }
+    ]
+  },
+  "politics.for_business": {
+    "message": "事業者向けじゃな？",
+    "options": [
+      { "label": "東成瀬村就業資格取得支援事業補助金" },
+      {"label": "過疎法に基づく固定資産税の課税免除について" },
+      {"label": "入札","next": "politics.for_business.bid" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+  "politics.for_business.bid":{
+    "message": "入札じゃな？",
+    "options": [
+        {"label":"令和7年度・令和8年度 入札参加資格審査申請書変更届（様式第９号）について" },
+        {"label":"令和7年度・令和8年度 入札参加資格申請書の随時受付について（物品・役務の提供等）" },
+        {"label":"令和7年度・令和8年度 東成瀬村小規模修繕等契約希望者登録申請手続き（随時登録）について" },
+        {"label":"【重要】入札参加資格審査申請書変更届（様式第９号）に関する注意事項（様式第１２号「役員等調書」の添付）" },
+        {"label":"戻る"}
+    ]
+  },
+  "politics.recruitment": {
+    "message": "募集・試験じゃな？",
+    "options": [
+      { "label": "令和7年度 会計年度任用職員(一般事務)の募集について" },
+      { "label": "令和7年度 任用職員(キャンプ場管理員・集落支援員・地域おこし協力隊)の募集について" },
+      { "label": "令和7年度 会計年度任用職員(道路除雪等作業員)の募集について" },
+      { "label": "戻る", "next": "politics" }
+    ]
+  },
+  "living": {
+    "message": "暮らし・手続きじゃな？",
+    "options": [
+      { "label": "ごみ", "next": "living.garbage" },
+      { "label": "戸籍・住民票・マイナンバー等", "next": "living.certificates" },
+      { "label": "税金", "next": "living.tax" },
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+  "living.garbage": {
+    "message": "ごみじゃな？",
+    "options": [
+      { "label": "東成瀬村ごみ分別表", "next":"living.garbage.bunbetu" },
+      { "label": "令和7年度ごみカレンダー" },
+      { "label": "家電リサイクル法に係る家電4品目有料収集について" },
+      { "label": "不燃ごみ特別収集について"},
+      { "label": "ごみ収集のお願い" },
+      { "label": "収集しないごみ", "next": "living.garbage.non_collect"},
+      { "label": "資源ごみ", "next": "living.garbage.resource" },
+      { "label": "粗大ごみ" },
+      { "label": "燃えるゴミ" },
+      { "label": "燃えないゴミ" },
+      { "label": "戻る", "next": "living" }
+    ]
+  },
+    "living.garbage.bunbetu": {
+    "message": "ごみ分別はこんな感じじゃ \n [https://vill.higashinaruse.lg.jp/villager/lifework/gomi/post-34475/]",
+    "options": [
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+  "living.garbage.non_collect":{
+    "message": "収集しないごみじゃな？",
+    "options":[
+      { "label": "収集しないごみ" },
+      { "label": "収集しないごみ(家電・パソコン)" },
+      { "label": "戻る", "next": "living.garbage" }
+    ]
+  },
+  "living.garbage.resource":{
+    "message": "資源ごみじゃな？",
+    "options":[
+        { "label": "こでん" },
+        { "label": "ペットボトル" },
+        { "label": "古紙" },
+        { "label": "缶" },
+        { "label": "びん類" },
+        { "label": "戻る", "next": "living.garbage" }
+    ]
+  },
+  "living.certificates": {
+    "message": "戸籍・住民票・マイナンバー等じゃな？",
+    "options": [
+        { "label": "令和7年3月24日からパスポートが変わります【2025年旅券発給開始】" },
+        { "label": "住民生活課窓口での各種証明書の発行等" },
+        { "label": "各種手続きでの本人確認について" },
+        { "label": "転入・転出", "next": "living.certificates.transfer"},
+        { "label": "住民票", "next": "living.certificates.certificates"},
+        { "label": "戻る", "next": "living" }
+    ]
+  },
+  "living.certificates.transfer":{
+    "message": "転入・転出じゃな？",
+    "options":[
+        { "label": "郵送による転出届" },
+        { "label": "住所の異動について(転入届・転出届・転居届)" },
+        { "label": "戸籍の届出について" },
+        { "label": "マイナポータルで転出手続きができます！" },
+        { "label": "戻る", "next": "living.certificates" }
+    ]
+  },
+  "living.tax": {
+    "message": "税金関連じゃな？",
+    "options": [
+      { "label": "地方税の申告・申請等の電子申告(eLTAX)" },
+      { "label": "村税の納め方" },
+      { "label": "申請書ダウンロード(税関係)" },
+      { "label": "土地・家屋に係る固定資産税評価額の縦覧について" },
+      { "label": "地籍調査の成果の閲覧及び交付について" },
+      { "label": "村税の納期" },
+      { "label": "村税の証明・閲覧" },
+      { "label": "戻る", "next": "living" }
+    ]
+  },
+  "family": {
+    "message": "結婚・出産・子育てじゃな？",
+    "options": [
+      { "label": "結婚", "next": "family.marriage" },
+      { "label": "出産", "next": "family.birth" },
+      { "label": "子育て", "next": "family.childcare" },
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+  "family.marriage": {
+    "message": "結婚じゃな？",
+    "options": [
+      { "label": "新婚世帯を応援します！ -東成瀬村結婚新生活支援事業-" },
+      { "label": "あきた結婚支援センター入会登録料助成事業" },
+      { "label": "戻る", "next": "family" }
+    ]
+  },
+  "family.birth": {
+    "message": "出産じゃな？",
+    "options": [
+      { "label": "東成瀬村出産・子育て応援支援金【あきた出産おめでとう給付金】給付事業" },
+      { "label": "不妊治療費助成事業について" },
+      { "label": "妊活応援相談会について" },
+      { "label": "戻る", "next": "family" }
+    ]
+  },
+  "family.childcare": {
+    "message": "子育てじゃな？",
+    "options": [
+      { "label": "助成事業", "next": "family.childcare.subsidy" },
+      { "label": "保育施設の利用申請について(入所申し込み)" },
+      { "label": "母子モ「なるせすくすく子育てアプリ」がスタートしました！" },
+      { "label": "ひとり親家庭の皆さまへ ～お困りごと相談窓口の紹介" },
+      { "label": "令和7年度乳幼児健康診査・健康相談日程表" },
+      { "label": "戻る", "next": "family" }
+    ]
+  },
+  "familiy.childcare.subsidy": {
+    "message":"助成事業じゃな？",
+    "options":[
+        { "label": "小中学生就学援助制度" },
+        { "label": "東成瀬村 こども家庭センター" },
+        { "label": "おむつ等購入費助成事業" },
+        { "label": "在宅赤ちゃん応援手当について" },
+        { "label": "子育て支援金について" },
+        { "label": "高校生バス通学費等補助金" },
+        { "label": "戻る", "next": "familiy.childcare" }
+    ]
+  },
+
+  "health": {
+    "message": "健康・福祉じゃな？",
+    "options": [
+      { "label": "健康", "next": "health.health" },
+      { "label": "福祉", "next": "health.welfare" },
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+
+  "health.health": {
+    "message": "健康じゃな？",
+    "options": [
+      { "label": "予防接種", "next": "health.health.vaccination"},
+      { "label": "手続き", "next": "health.health.procedure"},
+      { "label": "予定・計画", "next": "health.health.plan" },
+      { "label": "地域包括支援センターについて"},
+      { "label": "医療・介護サービス関係者の皆さんへ -在宅医療・介護連携の相談窓口について-"},
+      { "label": "戻る", "next": "health" }
+    ]
+  },
+
+    "health.health.vaccination": {
+    "message": "予防接種じゃな？",
+    "options": [
+      { "label": "子宮頸がん予防ワクチンキャッチアップ接種条件付き延長のお知らせ"},
+      { "label": "帯状疱疹任意予防接種助成事業について"},
+      { "label": "予防接種費用助成事業"},
+      { "label": "新型コロナワクチン接種について"},
+      { "label": "戻る", "next": "health.health" }
+    ]
+  },
+
+  "health.health.procedure": {
+    "message": "手続きじゃな？",
+    "options": [
+      { "label": "国民健康保険に関する届出について"},
+      { "label": "マイナンバーの健康保険証利用について"},
+      { "label": "戻る", "next": "health" }
+    ]
+  },
+
+  "health.health.plan": {
+    "message": "予定・計画じゃな？",
+    "options": [
+      { "label": "令和7年度東成瀬村衛生暗影事業予定表"},
+      { "label": "第３期東成瀬村国民健康保険保健事業実施計画（データヘルス計画）及び第４期東成瀬村特定健康診査・特定保健指導実施計画の策定について"},
+      { "label": "戻る", "next": "health.health" }
+    ]
+  },  
+
+  "health.welfare": {
+    "message": "福祉じゃな？",
+    "options": [
+      { "label": "高齢者支援", "next": "health.welfare.elderly" },
+      { "label": "医療費助成", "next": "health.welfare.medical_subsidy" },
+      { "label": "障がい者支援", "next": "health.welfare.disabled" },
+      { "label": "日々の生活", "next": "health.welfare.daily_life" },
+      { "label": "予定・計画", "next": "health.welfare.plan" },
+      { "label": "その他", "next": "health.welfare.other" },
+      { "label": "戻る", "next": "health" }
+    ]
+  },
+
+  "health.welfare.elderly": {
+    "message": "高齢者支援じゃな？",
+    "options": [
+      { "label": "東成瀬村における介護保険事業の特徴" },
+      { "label": "介護予防移送支援事業について" },
+      { "label": "高齢者おむつ購入費助成" },
+      { "label": "高齢者保護情報共有サービス事業" },
+      { "label": "戻る", "next": "health.welfare" }
+    ]
+  },
+
+  "health.welfare.medical_subsidy": {
+    "message": "医療費助成じゃな？",
+    "options": [
+      { "label": "福祉医療費制度(マル福)" },
+      { "label": "がん治療に伴う医療用補正具の購入費助成について" },
+      { "label": "はり・きゅう・マッサージ施術費助成" },
+      { "label": "東成瀬村軽度・中等度難聴者補聴器購入費助成事業について" },
+      { "label": "戻る", "next": "health.welfare" }
+    ]
+  },
+
+  "health.welfare.disabled": {
+    "message": "障がい者支援じゃな？",
+    "options": [
+      { "label": "障がい福祉サービスの利用" },
+      { "label": "障がい者通院費助成事業" },
+      { "label": "療育通院費助成事業" },
+      { "label": "戻る", "next": "health.welfare" }
+    ]
+  },
+
+  "health.welfare.daily_life": {
+    "message": "日々の生活じゃな？",
+    "options": [
+      { "label": "高齢者等の雪下ろしを支援します！" },
+      { "label": "村民健康増進バスの運行について" },
+      { "label": "困りごと相談窓口一覧" },
+      { "label": "ふれあい安心電話" },
+      { "label": "配食サービス" },
+      { "label": "補装具の交付・修理" },
+      { "label": "介護保険サービス事業所一覧" },
+      { "label": "戻る", "next": "health.welfare" }
+    ]
+  },
+
+  "health.welfare.plan": {
+    "message": "福祉計画じゃな？",
+    "options": [
+      { "label": "東成瀬村地域福祉計画について" },
+      { "label": "第9期東成瀬村高齢者保健福祉計画・介護保険事業計画" },
+      { "label": "戻る", "next": "health.welfare" }
+    ]
+  },
+
+  "health.welfare.other": {
+    "message": "その他じゃな？",
+    "options": [
+      { "label": "高齢者虐待とは" },
+      { "label": "介護保険料について" },
+      { "label": "介護サービスを利用するには" },
+      { "label": "戻る", "next": "health.welfare" }
+    ]
+  },
+
+  "overview": {
+    "message": "村の概要じゃな？",
+    "options": [
+      { "label": "村について", "next": "overview.about" },
+      { "label": "観光", "next": "overview.tourism" },
+      { "label": "施設", "next": "overview.facilities" },
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+
+  "overview.about": {
+    "message": "村についてじゃな？",
+    "options": [
+      { "label": "東成瀬村応援歌「なるせの源」" },
+      { "label": "東成瀬村民歌" },
+      { "label": "東成瀬村の歴史" },
+      { "label": "東成瀬村の誕生" },
+      { "label": "戻る", "next": "overview" }
+    ]
+  },
+
+  "overview.tourism": {
+    "message": "観光じゃな？",
+    "options": [
+      { "label": "東成瀬村の観光宿泊施設" },
+      { "label": "登山届の電子申請について" },
+      { "label": "東成瀬村滞在型観光誘客促進事業" },
+      { "label": "戻る", "next": "overview" }
+    ]
+  },
+
+  "overview.facilities": {
+    "message": "施設じゃな？",
+    "options": [
+      { "label": "ゆるるんの施設予約について" },
+      { "label": "東成瀬村の教育施設" },
+      { "label": "戻る", "next": "overview" }
+    ]
+  },
+
+  "disaster": {
+    "message": "防災・道路交通情報じゃな？",
+    "options": [
+      { "label": "防災", "next": "disaster.hazard" },
+      { "label": "道路交通情報", "next": "disaster.road" },
+      { "label": "トップに戻る", "next": "restart" }
+    ]
+  },
+
+  "disaster.hazard": {
+    "message": "防災じゃな？",
+    "options": [
+      { "label": "ハザードマップ", "next": "disaster.hazard.map" },
+      { "label": "令和6年7月25日からの大雨による災害により被害を受けた学生等の支援策について" },
+      { "label": "ツキノワグマ等情報マップシステム【クマダス】" },
+      { "label": "令和6年度 防災行政無線放送内容" },
+      { "label": "東成瀬村地域防災計画" },
+      { "label": "戻る", "next": "disaster" }
+    ]
+  },
+
+    "disaster.hazard.map": {
+    "message": "ハザードマップじゃな？",
+    "options": [
+      { "label": "耳で聴くハザードマップ" },
+      { "label": "東成瀬村ハザードマップ" },
+      { "label": "栗駒山火山ハザードマップ" },
+      { "label": "戻る", "next": "disaster.hazard" }
+    ]
+  },
+
+  "disaster.road": {
+    "message": "道路交通情報じゃな？",
+    "options": [
+      { "label": "道路交通情報" },
+      { "label": "戻る", "next": "disaster" }
+    ]
+  }
+}
